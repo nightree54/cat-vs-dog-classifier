@@ -113,4 +113,3 @@ python manage.py runserver
 - 分類精度向上
 - データセット拡張
 - UI改善
-- クラウド環境へのデプロイ
