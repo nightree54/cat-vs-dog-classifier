@@ -1,13 +1,41 @@
-.DS_Store
+# Python cache
+__pycache__/
+*.py[cod]
 
-# Environment
+# Virtual Environment
+appvenv/
+venv/
 env/
 
 # Django
-*.log
-*.pot
-*.pyc
-__pycache__
-local_settings.py
 db.sqlite3
-media
+
+# VSCode
+.vscode/
+
+# Mac
+.DS_Store
+
+# Python Version
+.python-version
+
+# Logs
+*.log
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# AI Model Files
+*.h5
+*.pth
+*.pt
+
+# Dataset
+dataset/
+data/
+
+# Uploaded Files
+media/
+
+# Environment Variables
+.env
