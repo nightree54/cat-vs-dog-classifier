@@ -1,7 +1,13 @@
 # Cat vs Dog Classifier
 
 学習済みモデルVGG16を用いた転移学習により、犬と猫を識別する画像分類AIを構築しました。  
-画像を入力すると、AIが犬または猫を予測します。
+画像をアップロードすると、AIが犬または猫を判定します。  
+また、Heroku上へデプロイし、Webアプリとして公開しています。
+
+デモURL：  
+https://catordog-61aac30d1ca3.herokuapp.com/
+
+※ Heroku Ecoプランを利用しているため、初回アクセス時は起動まで少し時間がかかる場合があります。
 
 ---
 
@@ -13,6 +19,7 @@
 - VGG16
 - Django
 - Pillow
+- Heroku
 
 ---
 
@@ -21,18 +28,15 @@
 - 画像アップロード
 - 犬・猫画像の分類
 - AIによる予測結果表示
+- Webアプリとしてデプロイ
 
 ---
 
 ## アプリ画面
 
-### トップ画面
-
-![top](images/top.png)
-
 ### 画像アップロード画面
 
-![result](images/upload.png)
+![upload](images/upload.png)
 
 ### 判定結果画面
 
@@ -109,4 +113,3 @@ python manage.py runserver
 - 分類精度向上
 - データセット拡張
 - UI改善
-- クラウド環境へのデプロイ
